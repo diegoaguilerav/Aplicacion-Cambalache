@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Sora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/perfil.css">
+    <title>Cambalache</title>
+</head>
+
+<body>
+    <header>
+
+        <!-- Comienzo Navbar -->
+        <nav class="navbar navbar-light">
+            <div class="col-4 col-lg-2 align-self-start">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="registro.html">Regístrarse</a></li>
+                        <li class="nav-item"><a class="nav-link" href="perfil.html">Perfil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="comprar.html">Comprar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Vender</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Cambalache</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Donar</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="d-flex col-4 col-lg-3 align-self-start justify-content-center justify-content-lg-start">
+                <a href="index.html"><img class="logo d-lg-none" src="img/indio5.png" alt=""></a>
+                <a href="index.html"><img class="logo d-none d-lg-inline" src="img/dindio6.png" alt=""></a>
+                <a href="index.html" class="logo__texto d-none d-lg-inline mb-0 align-self-center color__principal">CAMBALACHE</a>
+            </div>
+            <div class="d-flex d-lg-none col-4 align-self-start justify-content-end color__secundario">
+                <a href="perfil.html"><i class="fas fa-cog fa-2x col-8"></i></a>
+            </div>
+            <div class="d-none d-lg-flex col-lg-3 align-self-start justify-content-start">
+                <div class="header__titulo d-flex align-items-center">
+                    <i class="fas fa-user-circle fa-2x"></i>
+                    <a href="#" class="header__btn" data-toggle="modal" data-target="#exampleModalCenter">Iniciar
+                        sesión</a>
+                </div>
+            </div>
+            <div class="d-none d-lg-flex col-lg-4 align-self-start justify-content-center">
+                <div class="header__caja d-flex align-items-center">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <button class="btn btn-outline-secondary" type="button"><i class="fas fa-search"></i></button>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Buscar" aria-label="" aria-describedby="basic-addon1">
+                      </div>
+                </div>
+            </div>
+        </nav>
+        <!--Termino Navbar -->
+
+    </header>
+
+    <main>
+        <section class="d-flex col-12 flex-column perfil">
+            <article class="d-flex col-11 align-self-center justify-content-center">
+                <div class="d-flex col-12 col-md-6 col-lg-3 flex-column align-items-center color__principal">
+                    <h1 class="d-none d-lg-flex color__gris">PERFIL</h1>
+                    <img class="rounded-circle col-10 perfil__foto" src="img/Elisa.png" alt="">
+                    <i class="fas fa-camera fa-2x color__principal"></i>
+                    <h2 class="color__gris margen">Elisa Guzmán Vidal</h2>
+                    <a href="#" class="color__gris subrayado">Editar perfil</a>
+                </div>
+            </article>
+            <article class="perfil__botones d-flex col-12 col-md-10 col-lg-10 align-self-center flex-column flex-lg-row justify-content-lg-center margen">
+                <div class="perfil__btn loquefalta col-12 col-lg-3">
+                    <a href="#" class="col-12 d-flex d-lg-none">
+                        <div class="col-2 d-flex">
+                            <i class="fas fa-shopping-bag fa-2x"></i>
+                        </div>
+                        <span class="col-8 negrita">MIS COMPRAS</span>
+                        <div class="col-2"></div>
+                    </a>
+                    <a href="#" class="col-12 d-none d-lg-flex justify-content-center">
+                        <i class="fas fa-shopping-bag fa-2x"></i>
+                        <span class="negrita"> MIS COMPRAS</span>
+                    </a>
+                </div>
+                <div class="perfil__btn col-12 col-lg-3">
+                    <a href="#" class="col-12 d-flex d-lg-none">
+                        <div class="col-2 d-flex">
+                            <i class="fas fa-hand-holding-usd fa-2x"></i>
+                        </div>
+                        <span class="col-8 negrita">MIS VENTAS</span>
+                        <div class="col-2"></div>
+                    </a>
+                    <a href="#" class="col-12 d-none d-lg-flex justify-content-center">
+                        <i class="fas fa-hand-holding-usd fa-2x"></i>
+                        <span class="negrita"> MIS VENTAS</span>
+                    </a>
+                </div>
+                <div class="perfil__btn col-12 col-lg-3">
+                    <a href="#" class="col-12 d-flex d-lg-none">
+                        <div class="col-2 d-flex">
+                            <img class="icono-cambalache" src="img/iconINDIO.png" alt="">
+                        </div>
+                        <span class="col-8 negrita">MIS CAMBALACHES</span>
+                        <div class="col-2"></div>
+                    </a>
+                    <a href="#" class="col-12 d-none d-lg-flex justify-content-center">
+                        <img class="icono-cambalache" src="img/iconINDIO.png" alt="">
+                        <span class="negrita"> MIS CAMBALACHES</span>
+                    </a>
+                </div>
+                <div class="perfil__btn col-12 col-lg-3">
+                    <a href="#" class="col-12 d-flex d-lg-none">
+                        <div class="col-2 d-flex">
+                            <i class="fab fa-gratipay fa-2x"></i>
+                        </div>
+                        <span class="col-8 negrita">MIS DONACIONES</span>
+                        <div class="col-2"></div>
+                    </a>
+                    <a href="#" class="col-12 d-none d-lg-flex justify-content-center">
+                        <i class="fab fa-gratipay fa-2x"></i>
+                        <span class="negrita"> MIS DONACIONES</span>
+                    </a>
+                </div>
+            </article>
+        </section>
+
+
+        <!-- Ventana Modal Inicia Sesión-->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <section class="ventana-flotante justify-content-center col-12 align-self-center">
+                            <article class="d-flex flex-column col-12 sinpadding">
+                                <div class="d-flex col-12 color__gris">
+                                    <div class="d-flex col-10 align-items-center justify-content-center">
+                                        <img class="w-25" src="img/dindio6.png" alt="">
+                                        <p class="negrita logo__texto">HOLA!</p>
+                                    </div>
+                                    <div class="d-flex col-2 justify-content-end cerrar-modal">
+                                        <i class="fas fa-times-circle fa-2x" data-dismiss="modal"></i>
+                                    </div>
+                                </div>
+                                <div class="d-flex col-12 justify-content-center color__principal">
+                                    <i class="fas fa-user-circle fa-5x"></i>
+                                </div>
+                                <div class="d-flex flex-column col-12 align-items-center">
+                                    <h1>Email</h1>
+                                    <input class="email-box" type="email" name="correo">
+                                </div>
+                                <div class="d-flex flex-column col-12 align-items-center">
+                                    <h1>Contraseña</h1>
+                                    <input class="password-box" type="password" name="password" minlength="6">
+                                </div>
+                                <div class="d-flex col-12 justify-content-center">
+                                    <a class="iniciar-sesion" href="index.html">INICIAR SESIÓN</a>
+                                </div>
+                                <div class="registro d-flex flex-column col-12 align-items-center">
+                                    <a href="#">Olvidé mi contraseña</a>
+                                    <a href="registro.html">Registrarme</a>
+                                </div>
+                            </article>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Termino ventana Modal -->
+
+    </main>
+    <footer class="col-12">
+        <div class="row">
+            <div class="col-12">
+                <h1>CAMBALACHE</h1>
+            </div>
+            <div class="col-6">
+                <p class="footer__sub">¿QUIERES SABER MAS?</p>
+                <p>Nosotros</p>
+                <p>Preguntas frecuentes</p>
+                <p>Términos y condiciones</p>
+            </div>
+            <div class="col-6">
+                <p class="footer__sub">CONTÁCTANOS</p>
+                <p>hola@cambalachechile.cl</p>
+                <p>+56956743890</p>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-4 col-lg-2"><i class="fab fa-facebook-f fa-2x"></i></div>
+                    <div class="col-4 col-lg-2"><i class="fab fa-instagram fa-2x"></i></div>
+                </div>
+            </div>
+            <div class="col-12 margen">
+                <p class="centrar-texto"><i class="far fa-copyright"></i> 2020, CAMBALACHE</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

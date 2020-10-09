@@ -1,0 +1,56 @@
+h1{
+    font-size: 0.8rem;
+}
+h2{
+    font-size: 0.8rem;
+    text-align: left;
+    color: #19A2B9;
+    margin: 20px 0 10px 0;
+}
+.camara{
+    margin: 30px 0;
+    border: 1.5px solid #19A2B9;
+    color: #19A2B9;
+    padding: 20px;
+}
+.agregar-foto__btn{
+    border-radius: 50px;
+    background-color: #FFF;
+    color: #808080;
+    border: 1px solid #19A2B9;
+    height: 25px;
+    line-height: 25px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.enviar-btn{
+    background-color: #DE9331;
+    color: #FFF;
+    padding: 2px 0;
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px 0;
+    height: 45px;
+    line-height: 45px;
+    width: 80%;
+}
+.enviar-btn a{
+    color: #FFF;
+}
+.agregar-foto__btn a{
+    color: #808080;
+}
+@media (min-width: 992px){
+    p{
+        font-size: 1.2rem;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+}

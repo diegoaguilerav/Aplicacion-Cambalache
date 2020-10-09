@@ -1,0 +1,71 @@
+.form-control, .btn-outline-secondary{
+    border: 1px solid #19A2B9;
+    color: #19A2B9;
+}
+h1{
+    font-size: 1.2rem;
+}
+h2{
+    font-size: 0.8rem;
+}
+p{
+   font-size: 0.8rem;
+}
+.localizacion{
+    margin-top: 20px;
+}
+.vender__btn{
+    border-radius: 20px;
+    color: #FFF;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+    font-size: 0.8rem;
+    font-weight: 700;
+    background-color: #DA9130;
+    width: 75%;
+}
+.comprar2__btn{
+    border-radius: 20px;
+    color: #FFF;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 2px 0;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+    font-size: 0.8rem;
+    font-weight: 700;
+    background-color: #DA9130;
+    width: 100%;
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .vender__btn{
+        width: 30%;
+    }
+    .comprar2__btn{
+        width: 80%;
+    }
+}
+@media (min-width: 992px){
+    p{
+        font-size: 1.2rem;
+    }
+    h2{
+        font-size: 1.4rem;
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+    .vender__btn{
+        width: 30%;
+    }
+    .comprar2__btn{
+        width: 50%;
+        padding: 5px 0;
+        margin-bottom: 50px;
+    }
+}
